@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f4ec;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #444;
+  }
+  
+  header p {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .robot-section {
+    margin: 20px 0;
+  }
+  
+  .robot-image {
+    width: 150px;
+    height: auto;
+  }
+  
+  .task-section, .message-section {
+    margin: 20px 0;
+  }
+  
+  h2 {
+    color: #444;
+  }
+  
+  #task-input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #add-task {
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #add-task:hover {
+    background-color: #ff6347;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul li .delete-task {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
